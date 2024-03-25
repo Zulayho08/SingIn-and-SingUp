@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(150, 145, 151);
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 600px;
+}
+
+.wrapp {
+  margin: 0 auto;
+  padding-top: 5px;
+  margin-top: 100px;
+  width: 400px;
+  text-align: center;
+  display: block;
+  border: 2px solid #1a1a1b1c;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: -1px 1px 10px 1px #4e4444;
+}
+
+h1 {
+  color: rgb(114, 107, 107);
+  font-size: 35px;
+}
+
+label {
+  width: 300px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #7b7b7b;
+  margin-left: -150px;
+}
+
+::placeholder {
+  color: #c5c3c3;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  padding-left: 10px;
+  border: 1px solid #1a1a1b1c;
+  border-bottom: 3px solid #1a1a1b1c;
+  font-size: 16px;
+}
+
+#login {
+  margin-top: 20px;
+}
+
+button {
+  width: 310px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  margin-bottom: 50px;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  background: linear-gradient(70deg, rgb(151, 158, 170), rgb(70, 70, 79));
+}
+
+button:hover {
+  background: rgb(151, 158, 170);
+  cursor: pointer;
+}
+
+button:active {
+  background: rgb(70, 70, 79);
+}
